@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Павел Хапрянинов - Frontend-разработчик</title>
+</head>
+<body>
+<aside class="sidebar">
+    <nav class="navigation">
+        <button type="button" class="navigation__toggle" title="Показать/скрыть">
+            <span class="visually-hidden">Показать/скрыть</span>
+        </button>
+
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#greeting" class="navigation__link">Приветствие</a></li>
+            <li class="navigation__item"><a href="#about" class="navigation__link">Обо мне</a></li>
+            <li class="navigation__item"><a href="#portfolio" class="navigation__link">Портфолио</a></li>
+        </ul>
+    </nav>
+
+    <ul class="social sidebar__social">
+        <li class="social__item">
+            <a href="#" class="social__link social__link--telegram"><span class="visually-hidden">Telegram</span></a>
+        </li>
+        <li class="social__item">
+            <a href="#" class="social__link social__link--gmail"><span class="visually-hidden">Gmail</span></a>
+        </li>
+        <li class="social__item">
+            <a href="#" class="social__link social__link--skype"><span class="visually-hidden">Skype</span></a>
+        </li>
+        <li class="social__item">
+            <a href="#" class="social__link social__link--github"><span class="visually-hidden">Github</span></a>
+        </li>
+    </ul>
+</aside>
+
+<main class="main">
+    <section id="greeting" class="greeting">
+        <h1 class="visually-hidden">Портфолио Павла Хапрянинова</h1>
+        <p class="greeting__text-big">Приветствую</p>
+        <p class="greeting__text-middle">Я Павел Хапрянинов</p>
+        <p class="greeting__text-middle">Frontend-разработчик</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="title">Обо мне</h2>
+
+        <div class="about__wrapper">
+            <figure class="about__photo">
+                <img src="#" alt="Павел Хапрянинов" width="560" height="650">
+            </figure>
+
+            <section class="info about__info">
+                <h3 class="visually-hidden">Информация</h3>
+
+                <dl class="info__list">
+                    <div class="info__item-wrapper">
+                        <dt class="info__term">Имя:</dt>
+                        <dd class="info__definition">Павел Хапряни́нов</dd>
+                    </div>
+
+                    <div class="info__item-wrapper">
+                        <dt class="info__term">Дата рождения:</dt>
+                        <dd class="info__definition"><time datetime="1995-24-12">24 декабря 1995</time></dd>
+                    </div>
+
+                    <div class="info__item-wrapper">
+                        <dt class="info__term">Номер телефона:</dt>
+                        <dd class="info__definition">+7 (938) 160-77-24</dd>
+                    </div>
+
+                    <div class="info__item-wrapper">
+                        <dt class="info__term">Профессия:</dt>
+                        <dd class="info__definition">Frontend-разработчик</dd>
+                    </div>
+
+                    <div class="info__item-wrapper">
+                        <dt class="info__term">Электронная почта:</dt>
+                        <dd class="info__definition">pavhap@gmail.com</dd>
+                    </div>
+
+                    <div class="info__item-wrapper">
+                        <dt class="info__term">Город:</dt>
+                        <dd class="info__definition">Воронеж, Россия</dd>
+                    </div>
+                </dl>
+
+                <p class="info__description">
+                    I’m a Front End Develpoer and UI Designer Based in Austin. I have a Passion for Creating Clean,
+                    Beautiful, Interactive, Minimalistic, Responsive and User Friendly UI, Developed by Modular,
+                    Scalable and Functional Code. When, while the lovely valley teems with vapour around me, and
+                    the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but
+                    a few stray gleams steal. I throw myself down among the tall grass by the trickling stream; and,
+                    as I lie close to the earth, a thousand unknown.
+                </p>
+            </section>
+
+            <a href="#" class="button" download="">Скачать резюме</a>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2 class="title">Мои навыки</h2>
+
+        <ul class="skills__list">
+            <li class="skill">
+                <p class="skill__text">HTML — <span class="skill__value">87%</span></p>
+
+                <svg width="560" height="20">
+                    <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                    <line x1="0" y1="75%" x2="87%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                    <g style="transform: translateX(calc(87% - 5px))">
+                        <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1"></polyline>
+                    </g>
+                </svg>
+            </li>
+            <li class="skill">
+                <p class="skill__text">CSS — <span class="skill__value">83%</span></p>
+
+                <svg width="560" height="20">
+                    <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                    <line x1="0" y1="75%" x2="83%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                    <g style="transform: translateX(calc(83% - 5px))">
+                        <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1"></polyline>
+                    </g>
+                </svg>
+            </li>
+            <li class="skill">
+                <p class="skill__text">JavaScript — <span class="skill__value">72%</span></p>
+
+                <svg width="560" height="20">
+                    <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                    <line x1="0" y1="75%" x2="72%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                    <g style="transform: translateX(calc(72% - 5px))">
+                        <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1"></polyline>
+                    </g>
+                </svg>
+            </li>
+            <li class="skill">
+                <p class="skill__text">SVG — <span class="skill__value">60%</span></p>
+
+                <svg width="560" height="20">
+                    <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                    <line x1="0" y1="75%" x2="60%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                    <g style="transform: translateX(calc(60% - 5px))">
+                        <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1"></polyline>
+                    </g>
+                </svg>
+            </li>
+            <li class="skill">
+                <p class="skill__text">Less — <span class="skill__value">85%</span></p>
+
+                <svg width="560" height="20">
+                    <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                    <line x1="0" y1="75%" x2="85%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                    <g style="transform: translateX(calc(85% - 5px))">
+                        <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1"></polyline>
+                    </g>
+                </svg>
+            </li>
+            <li class="skill">
+                <p class="skill__text">Git — <span class="skill__value">78%</span></p>
+
+                <svg width="560" height="20">
+                    <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                    <line x1="0" y1="75%" x2="78%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                    <g style="transform: translateX(calc(78% - 5px))">
+                        <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1"></polyline>
+                    </g>
+                </svg>
+            </li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2 class="title">Мой опыт</h2>
+
+        <div class="experience__wrapper">
+            <section class="experience__type">
+                <h3 class="experience__title">Образование</h3>
+
+                <ol class="progress experience__progress">
+                    <li class="progress__item">
+                        <h4 class="progress__title">Профессиональный HTML и CSS, уровень 1</h4>
+
+                        <p class="progress__time">2019</p>
+
+                        <p class="progress__description">
+                            Здесь я узнал и закрепил базовые принципы профессиональной статичной вёрстки, используя
+                            современные стандарты HTML5 и CSS3. По итогам курса, я получил
+                            <a href="https://assets.htmlacademy.ru/certificates/intensive/111/862811.pdf?1572759854"
+                               class="link" target="_blank">
+                                сертификат
+                            </a>
+                            за защиту выпускного проекта с отличием.
+                        </p>
+                    </li>
+                    <li class="progress__item">
+                        <h4 class="progress__title">Профессиональный HTML и CSS, уровень 2</h4>
+
+                        <p class="progress__time">2020</p>
+
+                        <p class="progress__description">
+                            Здесь я узнал и закрепил продвинутые принципы профессиональной адаптивной вёрстки, научился
+                            работать с графикой, а также познакомился с автоматизацией. По итогам курса, я получил
+                            <a href="https://assets.htmlacademy.ru/certificates/intensive/157/862811.pdf?1588762790"
+                               class="link" target="_blank">
+                                сертификат
+                            </a>
+                            за защиту выпускного проекта с отличием.
+                        </p>
+                    </li>
+                    <li class="progress__item">
+                        <h4 class="progress__title">JavaScript. Профессиональная разработка веб-интерфейсов</h4>
+
+                        <p class="progress__time">2020</p>
+
+                        <p class="progress__description">
+                            Здесь я узнал и закрепил базовые принципы разработки веб-интерфейсов на JavaScript с
+                            использованием современного стандарта ECMAScript 2015. По итогам курса, я получил
+                            <a href="#"
+                               class="link" target="_blank">
+                                сертификат
+                            </a>
+                            за защиту выпускного проекта с отличием.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="experience__type">
+                <h3 class="experience__title">Работа</h3>
+
+                <ol class="progress experience__progress">
+                    <li class="progress__item">
+                        <h4 class="progress__title">Getex Delivery</h4>
+
+                        <p class="progress__time">2018 - настоящее время</p>
+
+                        <p class="progress__description">
+                            Здесь я начал развиваться в качестве Frontend-разработчика, набравшись опыта не только в
+                            сфере Frontend, но и затронув Backend-технологии на Node.js и PHP.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="title">Портфолио</h2>
+
+        <ul class="portfolio__list">
+            <li class="portfolio__item">
+                <a href="#" class="card">
+                    <h3 class="card__title">Техномарт</h3>
+
+                    <img src="#" class="card__overlay" alt="Техномарт" width="360" height="360">
+
+                    <ul class="card__list">
+                        <li class="skill">
+                            <p class="skill__text">HTML — <span class="skill__value">68%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="68%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(68% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="skill">
+                            <p class="skill__text">CSS — <span class="skill__value">62%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="62%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(62% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </a>
+            </li>
+            <li class="portfolio__item">
+                <a href="#" class="card">
+                    <h3 class="card__title">Getex Investors</h3>
+
+                    <img src="#" class="card__overlay" alt="Getex Investors" width="360" height="360">
+
+                    <ul class="card__list">
+                        <li class="skill">
+                            <p class="skill__text">HTML — <span class="skill__value">68%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="68%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(68% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="skill">
+                            <p class="skill__text">CSS — <span class="skill__value">62%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="62%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(62% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="skill">
+                            <p class="skill__text">JavaScript — <span class="skill__value">31%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="31%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(31% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </a>
+            </li>
+            <li class="portfolio__item">
+                <a href="#" class="card">
+                    <h3 class="card__title">Pink</h3>
+
+                    <img src="#" class="card__overlay" alt="Pink" width="360" height="360">
+
+                    <ul class="card__list">
+                        <li class="skill">
+                            <p class="skill__text">HTML — <span class="skill__value">87%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="87%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(87% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="skill">
+                            <p class="skill__text">CSS — <span class="skill__value">83%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="83%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(83% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </a>
+            </li>
+            <li class="portfolio__item">
+                <a href="#" class="card">
+                    <h3 class="card__title">Кексобукинг</h3>
+
+                    <img src="#" class="card__overlay" alt="Кексобукинг" width="360" height="360">
+
+                    <ul class="card__list">
+                        <li class="skill">
+                            <p class="skill__text">JavaScript — <span class="skill__value">72%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="72%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(72% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </a>
+            </li>
+            <li class="portfolio__item">
+                <a href="#" class="card">
+                    <h3 class="card__title">Сайт-портфолио</h3>
+
+                    <img src="#" class="card__overlay" alt="Сайт-портфолио" width="360" height="360">
+
+                    <ul class="card__list">
+                        <li class="skill">
+                            <p class="skill__text">HTML — <span class="skill__value">87%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="87%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(87% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="skill">
+                            <p class="skill__text">CSS — <span class="skill__value">83%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="83%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(83% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                        <li class="skill">
+                            <p class="skill__text">JavaScript — <span class="skill__value">72%</span></p>
+
+                            <svg width="560" height="20">
+                                <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                                <line x1="0" y1="75%" x2="72%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                                <g style="transform: translateX(calc(72% - 5px))">
+                                    <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                    </polyline>
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__year">2020</p>
+</footer>
+
+<template id="modal">
+    <div class="modal" role="document" aria-labelledby="modal-title">
+        <article class="modal__document">
+            <div class="modal__info">
+                <h2 id="modal-title" class="modal__title">Название проекта</h2>
+
+                <p class="modal__description">Описание проекта</p>
+
+                <ul class="modal__metrics">
+                    <li class="skill">
+                        <p class="skill__text">Метрика — <span class="skill__value">0%</span></p>
+
+                        <svg width="560" height="20">
+                            <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#e0e0e0" stroke-width="3"></line>
+                            <line x1="0" y1="75%" x2="0%" y2="75%" stroke="#35373e" stroke-width="3"></line>
+
+                            <g style="transform: translateX(calc(0% - 5px))">
+                                <polyline points="0,0 10,0 5,10 0,0" fill="none" stroke="#35373e" stroke-width="1">
+                                </polyline>
+                            </g>
+                        </svg>
+                    </li>
+                </ul>
+
+                <table class="details modal__details">
+                    <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Адаптивность</th>
+                        <th>Доступность</th>
+                        <th>Методология</th>
+                        <th>Подход</th>
+                        <th>Инструменты</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="details__value details__value--date"></td>
+                        <td class="details__value details__value--adaptability"></td>
+                        <td class="details__value details__value--accessibility"></td>
+                        <td class="details__value details__value--methodology"></td>
+                        <td class="details__value details__value--approach"></td>
+                        <td class="details__value details__value--tools"></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div class="button-wrapper">
+                    <a href="#" class="button">Репозиторий</a>
+                    <a href="#" class="button">Запустить</a>
+                </div>
+            </div>
+
+            <figure class="modal__image">
+                <img src="#" alt="Название проекта" width="500" height="300">
+            </figure>
+
+            <button type="button" class="modal__close"><span class="visually-hidden">Закрыть</span></button>
+        </article>
+    </div>
+</template>
+</body>
+</html>
